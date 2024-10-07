@@ -13,6 +13,9 @@ public class Main {
 
         int counter =0;
 
+ // saniyenin +1 artışı saniyede 1 olacak şekilde değildir 
+ // while true olarak yazılırsa saat, dakika ve saniyenin tam olarak çalıştığına bakılabilir  
+        
         while(counter<100) {
             vkt.sureyiyazma();
             vkt.ilerleme();
