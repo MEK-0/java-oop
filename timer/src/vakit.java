@@ -18,6 +18,16 @@ public class vakit {
 
         saniye++;
 
+          //Thread.sleep(1000)-> kullanımında program böyle kullanmamıza izin vermiyor try catch içine
+          // almamız gerekir.
+
+        try{
+             Thread.sleep(1000);
+        } catch (InterruptedException e){
+              e.printStackTrace();
+        }
+        
+
         // saniye = 0 , saniye+1 ,saniye=60 olduğunda saniye 0 olması lazım ve dakika değeri +1 olması lazım
 
         if(saniye == 60){
